@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Inter:wght@300&family=Montserrat:wght@200&family=Nanum+Gothic&family=Nunito+Sans:opsz,wght@6..12,300&family=Oswald&family=Roboto+Condensed:wght@700&family=Roboto:wght@300&display=swap');
+html,body
+{
+    background-color: #1c292d;
+}
+.header
+{
+    background-color: #0c1b1f;
+    height: auto;
+    background-size: 100% 100%;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+.header img 
+{
+    width: 70%;
+}
+.menu
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    margin: 15px -40px;
+    font-family: "Montserrat";
+
+}
+.menu li
+{
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+.menu li:hover 
+{
+    font-weight: 900;
+}
+.header i 
+{
+    color: #000;
+    margin-top: 30px;
+    padding-left: 20px;
+    float: left;
+    background-color: #fff;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.festival {
+    background-color: #1c292d;
+    background-size: 100% 100%;
+    height: auto;
+    background-image: url(images/coffee_header.png);
+    padding: 180px 0px 110px 0px;
+}
+
+.festival .cntnt h1 
+{
+    color: #f9e5c8;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    margin-left: 54%;
+    line-height: 1;
+}
+.festival .cntnt p 
+{
+    text-align: center;
+    height: 118px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    margin-left: 55%;
+}
+.promotion 
+{
+    background-image: url(images/bg.png);
+    background-size: 100% 100%;
+    height: auto;
+    padding: 32px 0px 100px 0px;
+}
+.promotion h1 
+{
+    text-align: center;
+    color: #f9e5c8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.promotion img
+{
+    width: 100%;
+    margin-top: 30%;
+    transition: 0.6s ease-in-out;
+}
+.promotion img:hover
+{
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+}
+.pic1 
+{
+    border-top: 1px solid #1c292d;
+}
+.pic3
+{
+    height: 75.5%;
+    border-right: 1px solid #1c292d;
+}
+.section 
+{
+    background-color: #1c292d;
+}
+.section h3
+{
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
+.section p 
+{
+    text-align: center;
+    color: #ffffff;
+    width: 70%;
+    font-family: "Montserrat";
+    margin-left: 15%;
+    margin-top: 7%;
+    margin-bottom: 40%;
+}
+.section1 
+{
+    background-color: #1c292d;
+}
+.section_pic 
+{
+    z-index: 1;
+    margin-bottom: 10%;
+    margin-left: 55px;
+}
+.section_pic .card
+{
+    background-color: #0c1b1f;
+    margin-top: 24%;
+    transition: 0.6s ease-in-out;
+}
+.section_pic .card:hover
+{
+    box-shadow: 0px 0px 10px 10px #2e464d;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+}
+.section_pic .card h1 
+{
+    color: #f9e5c8;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 5%;
+}
+.section_pic .card .coffee
+{
+    font-weight: 300;
+    font-size: 62px;
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+.section_pic .card p 
+{
+    margin-bottom: 10%;
+    text-align: center;
+    height: 118px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    margin-left: 10%;
+    width: 85%;
+}
+.section1 img 
+{
+    width: 100%;
+}
+.section_bg 
+{
+    margin-left: -100px;
+}
+.section2
+{
+    background-color: #1c292d;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+.section2 .section_pic .cards 
+{
+    background-image: url(images/matcha_bg.png);
+    background-size: 100% 100%;
+    height: 100%;
+    width: 175%;
+    margin-top: 8%;
+}
+.section2 .section_pic .content 
+{
+    padding-top: 40px;
+}
+.section_pic .cards h1 
+{
+    color: #f9e5c8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-left: 10%;
+}
+.section_pic .cards .coffee
+{
+    font-size: 65px;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 5%;
+    font-weight: 800;
+}
+.section_pic .cards p 
+{
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    height: 118px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Montserrat";
+    width: 52%;
+}
+.section2 .section_bg
+{
+    margin-left: -42%;
+}
+.section2 .section_bg img 
+{
+    width: 170%;
+}
+.section1 .ss
+{
+    margin-right: -100px;
+    z-index: 1;
+    margin-left: 30px;
+}
+.section1 .ss img 
+{
+    margin-top: 8%;
+}
+.section1 .sp 
+{
+    margin-right: 15px;
+    z-index: 0;
+}
+.hell
+{
+    margin-left: 30px;
+    z-index: 0;
+}
+.well
+{
+    margin-left: -45px;
+    z-index: 1;
+}
+.well img 
+{
+    margin-top: 5%;
+}
+.sec1
+{
+    padding-bottom: 4%;
+}
+ .sec1 .sp .vl 
+{
+    border-left: 6px solid #84674a;
+    height: 410px;
+    margin: 50px;
+}
+.sec1 .ss 
+{
+    z-index: 0;
+}
+.sec1 .con 
+{
+    color: #84674a;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.sec1 .con h1 
+{
+    margin-bottom: 2%;
+    color: #84674a;
+    text-align: left;
+    margin-left: -1%;
+}
+.sec1 .con p 
+{
+    margin-bottom: 14%;
+    width: 100%;
+    margin-left: 0%;
+    height: 0;
+    color: #84674a;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.sec1 .con h3 
+{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.section1 .hell .c 
+{
+    background-color: #f9e5c8;
+    margin-top: 21%;
+}
+.section1 .h
+{
+    z-index: 1;
+}
+.section1 .vl 
+{
+    border-left: 6px solid #84674a;
+    height: 410px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -30px
+}
+.section1 .w
+{
+    z-index: 0;
+}
+.section1 .hell .con 
+{
+    color: #84674a;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+.section1 .hell .con h1 
+{
+    margin-bottom: 2%;
+    color: #84674a;
+    text-align: left;
+    margin-left: -1%;
+    font-size: 43px;
+}
+.section1 .hell .con p 
+{
+    margin-bottom: 14%;
+    width: 100%;
+    margin-left: 0%;
+    height: 0;
+    color: #84674a;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.section1 .hell .con h3 
+{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+.section1 .hell .c:hover
+{
+    box-shadow: 0px 0px 10px 10px #84674a;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+}
+.foot 
+{
+    background-color: #1c292d;
+}
+.foot img 
+{
+    width: 20%;
+    margin: 50px;
+    margin-left: 40%;
+}
+@media only screen and (max-width:500px)
+{
+    
+}
